@@ -113,3 +113,10 @@ ul{
   font-size:0.8rem;
   opacity:0.8;
 }
+/* any screen less than 650px target these */
+@media (max-width: 650px){
+  #bottom-left-section,#bottom-right-section,#card {
+    width:100%;
+    height:auto;
+  }
+}
